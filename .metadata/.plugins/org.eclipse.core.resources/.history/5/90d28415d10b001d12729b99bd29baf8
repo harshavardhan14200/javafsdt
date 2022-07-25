@@ -1,0 +1,55 @@
+package phase1java;
+
+public class Constructor {
+	int x;
+	float y;
+	double z,t,rh;
+	Constructor(){
+		
+	}
+	Constructor(int s){
+		x=(s*s);
+	}
+	Constructor(float l, float b){
+		
+		y=(l*b);
+		
+	}
+	Constructor(double r){
+		z=(3.14*r*r);
+	}
+	void displaySquare(){
+		System.out.println("area of square is " +x);
+	}
+	void displayRect(){
+		System.out.println("area of rectangle is " +y);
+	}
+	void displayCircle(){
+		System.out.println("area of circle is " +z);
+	}
+	void area(float k, float l){
+		t=(0.5*k*l);
+		System.out.println("area of triangle is " +t);
+	} 
+	void area(double d1, double d2){
+		rh=(0.5*d1*d2);
+		System.out.println("area of rhombus is " +rh);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Constructor s1=new Constructor(14);
+		Constructor s2=new Constructor(5,2);
+		Constructor s3=new Constructor(6.5);
+		Constructor s4=new Constructor();
+		Constructor s5=new Constructor();
+		s1.displaySquare();
+		s2.displayRect();
+		s3.displayCircle();
+		s4.area(21.5,10.2);
+		s5.area(21,10);
+		
+	}
+
+}
