@@ -6,7 +6,7 @@ public class Comparision {
 		// TODO Auto-generated method stub
 		String t= "Delhi"; 
 		String o = "Mumbai";
-		String k= "delh";  
+		String k= "delhi";  
 		String y = new String ("Mumbai");
 		String l= new String ("delhi");  
 		String p = new String("Hello"); 
